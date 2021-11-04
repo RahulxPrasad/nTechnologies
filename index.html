@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-1</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand text-warning p-2 fs-3 fw-bold fst-italic" href="#">nTechnologies.com</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Clients</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Web Development</a></li>
+                            <li><a class="dropdown-item" href="#">App Development</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">System Design</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-warning" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Slider(Carousel) -->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+            <div class="carousel-item active bg-dark">
+                <img src="https://cloudblogs.microsoft.com/industry-blog/wp-content/uploads/industry/sites/22/2018/10/employee-1024-1.jpg-1024x576.png"
+                    class="d-block w-50 mx-auto" alt="...">
+            </div>
+            <div class="carousel-item bg-dark" data-bs-interval="2000">
+                <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202102/work-731198_1920_1200x768.jpeg?4VtnFsyLYqBjxx7YujB8T3S2c6rw0lO3&size=770:433"
+                    class="d-block w-50 mx-auto" alt="...">
+            </div>
+            <div class="carousel-item bg-dark" data-bs-interval="10000">
+                <img src="https://mk0protectedtrusti2s.kinstacdn.com/wp-content/uploads/2020/12/TECHNOLOGY-IN-THE-WORKPLACE.png"
+                    class="d-block w-50 mx-auto" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container-fluid">
+        <!-- tagline -->
+        <div class="row">
+            <div class="col-12">
+                <h3 class="text-center mt-5 mb-2">Lorem ipsum dolor amet consectetur adipisicing elit. Saepe
+                    aspernasdfsdtur, sequi accusamus <br> itaque debitis, temporibus cum quod voluptatum dunt, esse
+                    aperiam. </h3>
+            </div>
+        </div>
+        <!-- features -->
+        <div class="row justify-content-evenly p-5">
+            <div class="col-md-3 text-center border border-primary">
+                <h1><i class="bi bi-file-earmark-code-fill text-primary"></i></h1>
+                <h5 class="fw-bold">Built For Developers</h5>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, ducimus ea similique quisquam at quo.
+                    Error deserunt quod ipsam saepe itaque ut, numquam animi reprehenderit debitis corporis quia cumque!
+                    Delectus, vitae! Vel, adipisci!</p>
+
+            </div>
+            <div class="col-md-3 text-center border border-danger m-5 m-md-0">
+                <h1><i class="bi bi-easel-fill text-danger mt-5"></i></h1>
+                <h5 class="fw-bold">Built For Companies</h5>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, ducimus ea similique quisquam at quo.
+                    Error deserunt quod ipsam saepe itaque ut, numquam animi reprehenderit debitis corporis quia cumque!
+                    Delectus, vitae! Vel, adipisci!</p>
+            </div>
+            <div class="col-md-3 text-center border border-warning">
+                <h1><i class="bi bi-boxes text-warning"></i></h1>
+                <h5 class="fw-bold">Built For Community</h5>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, ducimus ea similique quisquam at quo.
+                    Error deserunt quod ipsam saepe itaque ut, numquam animi reprehenderit debitis corporis quia cumque!
+                    Delectus, vitae! Vel, adipisci!</p>
+            </div>
+        </div>
+
+        <hr>
+        <!-- growth section -->
+        <div class="row justify-content-evenly pt-5">
+            <div class="col-md-5">
+                <img src="https://ideagirlmedia.com/static/uploads/2017/01/Animated-Video-Production-Business-Growth.jpg"
+                    alt="growth-img" class="img-fluid pb-5">
+            </div>
+            <div class="col-md-5">
+                <h5 class="mt-2">Website Development</h5>
+                <div class="progress">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 85%" aria-valuenow="85"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <h5 class="mt-2">Application Development</h5>
+                <div class="progress">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 60%" aria-valuenow="60"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <h5 class="mt-2">System Design</h5>
+                <div class="progress">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <h5 class="mt-2">SEO Friendly</h5>
+                <div class="progress">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="80"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <h5 class="mt-2">Marketing</h5>
+                <div class="progress  mb-5">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 100%" aria-valuenow="100"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQ section -->
+        <div class="row justify-content-evenly pt-5 pb-5">
+            <div class="col-md-10">
+                <h2 class="text-center pb-4">Frequently Asked Questions(FAQs)</h2>
+                <div class="accordion border" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Question #1
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the first item's accordion body.</strong> It is shown by default, until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Question #2
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                until the collapse plugin adds the appropriate classes that we use to style each
+                                element. These classes control the overall appearance, as well as the showing and hiding
+                                via CSS transitions. You can modify any of this with custom CSS or overriding our
+                                default variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Question #3
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- contact section -->
+        <div class="row justify-content-evenly pt-2 pb-5" style="background-color:rgb(231, 225, 236);">
+            <div class="col-md-5 mt-5">
+                <h2 class="mb-4">Contact Form</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Suggestions/Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class=" text-center">
+                        <button type="submit" class="btn btn-danger">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-5 mt-5">
+                <h2 class="mb-4">Official Address</h2>
+                <p>M-19 Kimberly Way, William Park,<br> New York -11206 <br><i class="bi bi-telephone-plus"></i>
+                    999-999-9999
+                </p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.889586813792!2d77.1765187141097!3d28.543038282453164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1deee6174d09%3A0xeb64b2f3a4e76fcc!2sMohyal%20Educational%20%26%20Research%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1635935358487!5m2!1sen!2sin"
+                    style="width: 100%;" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <!-- copyright -->
+        <div class="row bg-secondary text-center text-white pt-3">
+            <div class="col-12">
+                <p>&copy;Copyright (2016-2021) <i>nTechnologies.com</i></p>
+            </div>
+        </div>
+
+
+        <!-- container end -->
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
